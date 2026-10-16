@@ -1,0 +1,38 @@
+// 1. Your variable overrides
+$primary: #6366F1;
+$border-radius: 0.5rem;
+$font-family-base: 'Roboto', sans-serif;
+$body-bg: #F8F9FA;
+
+// 2. Bootstrap source
+@import 'bootstrap/scss/bootstrap';
+
+// 3. Your custom styles after
+.navbar {
+  background-color: #6366F1 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  .navbar-brand {
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+    &:hover {
+      color: white;
+    }
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 500;
+
+    &:hover {
+      color: white;
+    }
+
+    &.active {
+      color: white !important;
+      font-weight: 600;
+    }
+  }
+}

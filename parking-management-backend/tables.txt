@@ -1,0 +1,31 @@
+ParkingLot:
+- id            → Long (PK, auto-generated)
+- name          → String
+- location      → String
+- totalCapacity → Integer
+- status        → Enum (ACTIVE, INACTIVE)
+
+ParkingSlot:
+- id          → Long (PK, auto-generated)
+- slotNumber  → Integer
+- type        → Enum (TWO_WHEELER, FOUR_WHEELER)
+- status      → Enum (FREE, OCCUPIED, RESERVED)
+- lotId       → FK → ParkingLot (Many-to-One)
+
+Vehicle:
+- id                 → Long (PK, auto-generated)
+- ownerName          → String
+- model              → String
+- registrationNumber → String (Unique)
+- type               → Enum (TWO_WHEELER, FOUR_WHEELER)
+
+ParkingTicket:
+- id            → Long (PK, auto-generated)
+- entryTime     → LocalDateTime
+- exitTime      → LocalDateTime (nullable)
+- fee           → BigDecimal (nullable until exit)
+- paymentMode   → Enum (CASH, CARD, UPI)
+- paymentStatus → Enum (PENDING, PAID)
+- status        → Enum (ACTIVE, CLOSED)
+- vehicleId     → FK → Vehicle (Many-to-One)
+- slotId        → FK → ParkingSlot (Many-to-One)
