@@ -4,16 +4,6 @@ ParkFlow is a backend parking lot management system built with Spring Boot, Post
 
 The project is designed as a portfolio application that models real-world parking operations commonly found in Chennai malls and metro stations. Its goal is to demonstrate practical backend engineering, database design, REST API development, and business logic beyond basic CRUD operations.
 
-## Project Status
-
-| Area | Status |
-| --- | --- |
-| Backend phases 1-6 | Complete |
-| PDF ticket generation | Complete |
-| Swagger/OpenAPI documentation | Complete |
-| PostgreSQL database integration | Complete |
-| Backend REST API | Complete |
-| Formal project report | Planned |
 
 ## Features
 
