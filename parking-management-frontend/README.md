@@ -4,19 +4,6 @@ The ParkFlow frontend is a React-based user interface for the ParkFlow parking l
 
 ParkFlow models parking operations commonly found in Chennai malls and metro stations. The frontend is designed to work with the Spring Boot backend in the sibling `parking-management` project.
 
-## Project Status
-
-| Area | Status |
-| --- | --- |
-| Dashboard | Complete |
-| Parking-lot management | Complete |
-| Parking-slot management | Complete |
-| Vehicle management | Complete |
-| Vehicle entry workflow | Complete |
-| Exit and payment workflow | Complete |
-| Ticket PDF download | Complete |
-| Backend Swagger/OpenAPI | Complete |
-| Formal project report | Planned |
 
 ## Technology Stack
 
