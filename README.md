@@ -216,10 +216,3 @@ npm run build
 
 ![Exit and payment](./parking-management-frontend/docs/screenshots/exit-payment.png)
 
-## Project Status
-
-- Backend REST API: complete
-- PDF ticket generation: complete
-- Swagger/OpenAPI documentation: complete
-- Frontend management and ticket workflows: complete
-- Formal project report: planned
