@@ -1,4 +1,4 @@
-# ParkFlow
+# ParkFlow - A parking management system
 
 Full-stack parking lot management system built for real-world parking operations in malls and metro stations.
 
